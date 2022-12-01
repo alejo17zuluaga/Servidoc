@@ -99,7 +99,7 @@ body {
     margin-top: 50px;
 }
 
-a  {
+.form-body a[type="loging"] {
     color: #fff;
     text-decoration: none;
     display: block;
@@ -115,7 +115,15 @@ a  {
     border: 1px solid #4b9a74;
 }
 
-a:hover{
+.form-body a:hover[type="loging"]{
     border: 2px solid #4b9a74;
 }
 
+.form-body a[type="registro"] {
+    color: #4b9a74;
+
+}
+
+.form-body a:hover[type="registro"]{
+    text-decoration: none;
+}
