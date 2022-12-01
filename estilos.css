@@ -40,7 +40,6 @@ body {
 }
 
 .form-body input {
-    display: block;
     margin: auto;
     height: 40px;
     width: 75%;
@@ -58,6 +57,7 @@ body {
 
 .form-body input[type="password"] {
     margin-top: 20px;
+    display: block;
 }
 
 ::placeholder {
@@ -121,9 +121,31 @@ body {
 
 .form-body a[type="registro"] {
     color: #4b9a74;
-
 }
 
 .form-body a:hover[type="registro"]{
     text-decoration: none;
+}
+
+
+.form-body input[type="pais"] {
+    margin-top: 20px;
+    display: block;
+}
+
+.form-body input[type="nombre"] {
+    margin-top: 20px;
+    width: 37%;
+    justify-content: center;
+}
+
+.form-body input[type="apellid"] {
+    margin-top: 20px;
+    width: 37%;
+    justify-content: center;
+}
+
+.form-body input[type="correo"] {
+    margin-top: 20px;
+    display: block;
 }
